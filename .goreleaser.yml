@@ -1,0 +1,25 @@
+project_name: mqtt-influxdb-bridge
+before:
+  hooks:
+    - go mod download
+builds:
+  - binary: mqtt-influxdb-bridge
+    goos:
+      - darwin
+      - linux
+      - windows
+    goarch:
+      - 386
+      - amd64
+      - arm
+      - arm64
+    goarm:
+      - 5
+      - 6
+    ignore:
+      - goos: windows
+        goarch: arm64
+archives:
+  - format_overrides:
+      - goos: windows
+        format: zip
