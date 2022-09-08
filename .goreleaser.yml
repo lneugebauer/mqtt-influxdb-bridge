@@ -19,6 +19,8 @@ builds:
     ignore:
       - goos: windows
         goarch: arm64
+      - goos: windows
+        goarm: 5
 archives:
   - format_overrides:
       - goos: windows
