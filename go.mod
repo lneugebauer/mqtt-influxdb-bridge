@@ -6,7 +6,7 @@ toolchain go1.21.3
 
 require (
 	github.com/caarlos0/env/v6 v6.10.1
-	github.com/eclipse/paho.mqtt.golang v1.4.3
+	github.com/eclipse/paho.mqtt.golang v1.5.0
 	github.com/joho/godotenv v1.5.1
 )
 
@@ -18,8 +18,8 @@ require (
 )
 
 require (
-	github.com/gorilla/websocket v1.5.1 // indirect
-	github.com/influxdata/influxdb-client-go/v2 v2.13.0
-	golang.org/x/net v0.21.0 // indirect
-	golang.org/x/sync v0.6.0 // indirect
+	github.com/gorilla/websocket v1.5.3 // indirect
+	github.com/influxdata/influxdb-client-go/v2 v2.14.0
+	golang.org/x/net v0.34.0 // indirect
+	golang.org/x/sync v0.10.0 // indirect
 )
